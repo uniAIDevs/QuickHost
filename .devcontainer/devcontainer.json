@@ -1,0 +1,14 @@
+{
+    "name": "Wasp Language Development",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "settings": { 
+        // Add any required VS Code settings here
+    },
+    "extensions": [
+        // Add any required VS Code extensions here
+    ],
+    "postCreateCommand": "curl -sSL https://get.wasp-lang.dev/installer.sh | sh && wasp db migrate-dev && wasp start",
+    "remoteUser": "vscode"
+}
