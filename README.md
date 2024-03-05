@@ -1,5 +1,5 @@
 # QuickHost
-The first fully functional file hosting service built in Wasp.
+The first fully functional file hosting service built in Wasp. It is revelutionary because it requires no external databased services.
 # About QuickHost
 
 ## Overview
