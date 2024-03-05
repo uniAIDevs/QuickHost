@@ -1,0 +1,10 @@
+tasks:
+  - init: >
+      curl -sSL https://get.wasp-lang.dev/installer.sh | sh &&
+      source $HOME/.wasp/bin/wasp_completion &&
+      wasp db migrate-dev
+    command: wasp start
+
+ports:
+  - port: 3000
+    onOpen: open-preview
