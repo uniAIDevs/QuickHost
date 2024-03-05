@@ -24,4 +24,13 @@ The website stores various types of data to ensure smooth functionality:
 - Upload timestamps
 - User activities (logins, uploads, file management actions) for security and analytics purposes
 
+## Self-Hosting
+The app when used in VS Code or GitPod will deploy itself. To do so, run
+`curl -sSL https://get.wasp-lang.dev/installer.sh | sh`
+`git clone https://github.com/uniAIDevs/QuickHost`
+`cd QuickHost`
+`wasp db migrate-dev`
+`wasp start`
+
+
 This readme provides an overview of the key features and functionalities of the file hosting web application. Users can expect a user-friendly interface with robust file management capabilities and customizable settings to enhance their experience.
